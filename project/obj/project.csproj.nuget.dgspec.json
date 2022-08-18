@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario MSI\\source\\repos\\project\\project.csproj": {}
+    "C:\\Users\\Yirlany H\\Documents\\E-Learning-Progra5\\E-Learning-Progra5\\project\\project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario MSI\\source\\repos\\project\\project.csproj": {
+    "C:\\Users\\Yirlany H\\Documents\\E-Learning-Progra5\\E-Learning-Progra5\\project\\project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario MSI\\source\\repos\\project\\project.csproj",
+        "projectUniqueName": "C:\\Users\\Yirlany H\\Documents\\E-Learning-Progra5\\E-Learning-Progra5\\project\\project.csproj",
         "projectName": "project",
-        "projectPath": "C:\\Users\\Usuario MSI\\source\\repos\\project\\project.csproj",
-        "packagesPath": "C:\\Users\\Usuario MSI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario MSI\\source\\repos\\project\\obj\\",
+        "projectPath": "C:\\Users\\Yirlany H\\Documents\\E-Learning-Progra5\\E-Learning-Progra5\\project\\project.csproj",
+        "packagesPath": "C:\\Users\\Yirlany H\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yirlany H\\Documents\\E-Learning-Progra5\\E-Learning-Progra5\\project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Yirlany H\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
