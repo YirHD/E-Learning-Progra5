@@ -1,0 +1,159 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+  <h1 class="display-4"><b>My Campus | Plataforma E-LEARNING</b></h1>
+  <hr class="my-4">
+  <p>Esta plataforma brinda a los usuarios una herramienta de gestion de aprendizaje online.</p>
+  <p class="lead">
+    @*<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>*@
+
+@*    VEr como hacer que se vea la clase en el boton*@
+
+    @Html.ActionLink("Ver más", "Contact", null, new { @class = "btn btn-primary btn-lg" })
+  </p>
+</div>
+
+<div class="row mb-3">
+    <div class="col-md-6">
+        <dl>
+            <dt>I. INTRODUCTION</dt>
+            <dd>
+                In search of selecting a topic for the development of the skills acquired during the advanced
+                programming course. The development of an online learning platform was chosen.
+                This was decided by the need for the chosen theme to work to cover some social need. On the other
+                hand, this theme allows for the accurate application of the themes seen throughout the course. The
+                system seeks to provide a virtual classroom management tool, with a friendly interface, that allows
+                users to easily adapt to the software.
+            </dd>
+        </dl>
+    </div>
+    <div class="col-md-6">
+        <dl>
+            <dt>II. JUSTIFICATION</dt>
+            <dd>
+                As a result of the arrival of technology in our lives, one of the main advantages is the closeness
+                that it gives us with information. The Internet is the perfect tool for the transmission of
+                information on a global level, breaking the communication barrier. From that moment, many activities
+                that were previously face-to-face saw the possibility of being carried out virtually.
+                Today we have the possibility of developing systems that allow centralizing information, connecting
+                groups of people to share it. In the educational field, the term "E-learning" has been generalized
+                to refer to online learning platforms.
+                Based on the above and looking to generate a system that can be useful to society, it was decided to
+                develop one of these platforms, open to the public, with open source code.
+
+            </dd>
+        </dl>
+    </div>
+    <div class="col-md-12">
+        <dl>
+            <dt>III. REQUIREMENTS</dt>
+            <dd>
+                This system seeks to make available to users the tool of a virtual classroom. This implies a portal
+                where teachers can create spaces to share information with their students.
+                The first point to take into account follows from the above. The need to have different views for
+                each type of user. In other words, each user will have identifiers that allow them to access certain
+                options and restrict others.
+                The above will be achieved with the implementation of security and authentication measures, in this
+                way each person who uses the application will have to identify themselves. In this way, we jump to
+                the next point, authorization. By having the information of the users who access the system, it
+                becomes possible to create roles and assign them.
+                The roles will be the identifiers, they will be assigned to the users and later, with this, it will
+                be validated whether the user in question can access a part of the system or not.
+                Within the project 3 roles will be needed as minimum, Administrator - Teacher -Student.
+                The administrator role will be in charge of the administration of the system in general. This role
+                has access to all the views of the system, it is also possible to manage all the configurations
+                prior to the virtual classroom function, these configurations will be called "Master Data",
+                necessary for the use of the application. Focused on the project, the administrator will be in
+                charge of creating system users, creating and assigning roles to these users.
+                The role Student, will be in charge of consuming the resources created dynamically by the teachers,
+                will have access to the list of courses registered for him, access the virtual classroom space of
+                each subject, see the lessons and download the assigned resources. In this way, the functionality of
+                the system to be developed for each specific role is explained, generating a functional, dynamic
+                virtual classroom software with roles, authentication and a friendly interface. Thus allowing
+                centralizing information between a group of students and their teacher.
+
+            </dd>
+        </dl>
+    </div>
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">IV. TECHNOLOGIES APPLIED</h5>
+                <div class="card-text">
+                    <div class="card-group">
+                        <div class="card">
+
+                            <div class="card-body">
+                                <h5 class="card-title">ASP.NET Core</h5>
+                                <p class="card-text">
+                                    It started from the use of Microsoft's ASP.NET Core, [1] They define
+                                    ASP.netn core as a developer platform made up of tools, programming languages, and
+                                    libraries for building many different types of applications. In this case it
+                                    will be Web.
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="card">
+
+                            <div class="card-body">
+                                <h5 class="card-title">MVC</h5>
+                                <p class="card-text">
+                                    For this project, the MCV model-view-controller development
+                                    model was used. It allows the developer to separate the graphical user
+                                    interface, the logic used within the application, and the database communication
+                                    model. This pattern goes beyond ASP.net core and is used in many technologies.
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="card">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Entity Framework</h5>
+                                <p class="card-text">
+                                    Another tool used within the project is the Entity Framework,
+                                    this is an ORM (object relational mapping) that allows you to relate the tables
+                                    in the database with the objects used in our project.
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="card">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Identity</h5>
+                                <p class="card-text">
+                                    Identity is a set of code libraries for authorization and
+                                    authentication processes within a common application. Authentication refers to
+                                    the way in which users access the application, while authorization allows
+                                    configuring the public and private areas of the project. 
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="card">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Razor</h5>
+                                <p class="card-text">
+                                    Razor is a template engine that allows you to include code
+                                    within views. In this way you can send information from the controller to the
+                                    view, and work with this information. This can be used to perform view level
+                                    validations among other things.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

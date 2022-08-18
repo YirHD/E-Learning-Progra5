@@ -1,0 +1,56 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model Curso
+
+@{
+    ViewBag.Title = "Grupo";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <div class="mt-3 mb-3">
+        <h4>Generación de Grupo: @ViewBag.curso.NombreCurso </h4>
+    </div>
+
+
+@using (Html.BeginForm())
+{
+    <p>
+        Nombre: @Html.TextBox("SearchString") &nbsp
+        <input type="submit" value="Buscar" class="btn btn-success" />
+    </p>
+}
+
+<table class="table">
+    <tr>
+        <th>Nombre: </th>
+
+        <th>Apellidos: </th>
+
+        <th>Correo: </th>
+
+        <th>Cédula: </th>
+
+        <th>Opciones</th>
+    </tr>
+
+    @foreach (var profe in ViewBag.profes)
+    {
+        <tr>
+            <td> @profe.nombre</td>
+
+            <td> @profe.apellidos </td>
+
+            <td> @profe.Email </td>
+
+            <td> @profe.cedula </td>
+
+            <td>
+                @Html.ActionLink("Generar grupo", "GeneraGrupo", new { idProfe = profe.Id, idCurso = ViewBag.curso.IdCurso }, new { @class = "btn btn-dark" })
+            </td>
+        </tr>
+    }
+
+</table>

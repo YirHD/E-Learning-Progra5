@@ -1,0 +1,50 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model IEnumerable<IdentityUser>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Listado de Usuarios: </h2>
+
+
+
+<p>
+    @Html.ActionLink("Nuevo", "Create")
+</p>
+
+@*<div class="">
+    @using (Html.BeginForm()) 
+    {
+            <p>
+                Email: @Html.TextBox("search", null, new { @class = "m-2" }) 
+                <input type="submit" value="Buscar" class="btn btn-outline-success btn-sm" />
+            </p>   
+    }
+</div>*@
+<table class="table">
+    <tr>
+        <th>
+            Nombre de usuario:
+        </th>
+        <th>
+
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserName)
+            </td>
+
+            <td>
+               @* @Html.ActionLink("Editar", "Edit", new { id = item.Id }) |*@
+                @Html.ActionLink("Detalles", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Borrar", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>
