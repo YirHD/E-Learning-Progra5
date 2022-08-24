@@ -4,6 +4,9 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using project.Models;
 using System.ComponentModel.DataAnnotations;
+using System.Diagnostics;
+using System.Net;
+using System.Net.Mail;
 
 namespace project.Controllers
 {
@@ -86,6 +89,7 @@ namespace project.Controllers
                 }
                 else
                 {
+                    SendEmail(user.Email);
                     //ModelState.AddModelError("", adminresult.Errors.First());
                     ViewBag.RoleId = new SelectList(_roleManager.Roles, "Name", "Name");
                     return View();
@@ -175,5 +179,52 @@ namespace project.Controllers
             [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
             public string ConfirmPassword { get; set; }
         }
+
+
+        //Correo
+        private void SendEmail(string Email)
+        {
+            using (SmtpClient client = new SmtpClient()
+            {
+                Host = "smtp.office365.com",
+                Port = 587,
+                UseDefaultCredentials = false, // This require to be before setting Credentials property
+                DeliveryMethod = SmtpDeliveryMethod.Network,
+                Credentials = new NetworkCredential("no-reply-elearning@outlook.com", "Elearning123*"), // you must give a full email address for authentication 
+                TargetName = "STARTTLS/smtp.office365.com", // Set to avoid MustIssueStartTlsFirst exception
+                EnableSsl = true // Set to avoid secure connection exception
+            })
+            {
+                MailMessage message = new MailMessage()
+                {
+                    From = new MailAddress("no-reply-elearning@outlook.com"), // sender must be a full email address
+                    Subject = "Nuevo acceso - E-Learning",
+                    IsBodyHtml = true,
+                    //Body = "<h1>Bienvenido</h1>",
+                    Body = "<p>Estimado(a):</p> " +
+                    "<p> Se le ha dado acceso al sistema E-Learning, " +
+                    "por lo que es necesario que ingrese al sistema con su correo electrónico y " +
+                    "contraseña.</p>" +
+                    "<p> Por favor no responder este correo,no nos hacemos reponsables del uso de terceros. </p>" +
+                    "<p> Saludos cordiales, </p>" +
+                    "<p> E-Learning. </p>" +
+                    "<p> Atención: Si tiene algún problema o desea realizar una consulta, puede comunicarse con soporte técnico.</p>",
+                    BodyEncoding = System.Text.Encoding.UTF8,
+                    SubjectEncoding = System.Text.Encoding.UTF8,
+                };
+                message.To.Add(Email);
+                try
+                {
+                    client.Send(message);
+                }
+                catch (Exception ex)
+                {
+                    Debug.WriteLine(ex.Message);
+                }
+            }
+        }
+
+
+
     }
 }
