@@ -1,0 +1,61 @@
+﻿@model IEnumerable<project.Models.Curso>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<center>
+<h2>Listado de Cursos </h2>
+</center>
+
+
+<p>
+    @Html.ActionLink("Nuevo", "Create")
+</p>
+<table class="table" id="CursosTable">
+    <thead class="thead-dark">
+    <tr>
+        <th>
+            Código del curso:
+        </th>
+        <th>
+            Nombre del curso:
+        </th>
+        <th>
+            Descripción del curso:
+        </th>
+        <th>
+            Gestión de cursos:
+        </th>
+    </tr>
+    </thead>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CodigoCurso)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NombreCurso)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DescripcionCurso)
+        </td>
+        <td>
+            <button class="btn btn-primary ml-2" onclick="location.href='@Url.Action("Edit","Cursos",new{ id = item.IdCurso})';return false;">Editar</button>
+             <button class="btn btn-info ml-2" onclick="location.href='@Url.Action("Details","Cursos",new{ id = item.IdCurso})';return false;">Detalles</button>
+              <button class="btn btn-danger ml-2" onclick="location.href='@Url.Action("Delete","Cursos",new{ id = item.IdCurso})';return false;">Borrar</button>
+               <button class="btn btn-success ml-2" onclick="location.href='@Url.Action("Grupo","Cursos",new{ id = item.IdCurso})';return false;">Generar Grupo</button>
+                <button class="btn btn-dark ml-2" onclick="location.href='@Url.Action("Matricula","Cursos",new{ id = item.IdCurso})';return false;">Matricular Estudiante</button>
+
+           @* @Html.ActionLink("Editar", "Edit", new { id = item.IdCurso }) |
+            @Html.ActionLink("Detalles", "Details", new { id = item.IdCurso }) |
+            @Html.ActionLink("Borrar", "Delete", new { id = item.IdCurso }) |
+            @Html.ActionLink("Generar Grupo", "Grupo", new { id = item.IdCurso}) |
+            @Html.ActionLink("Matricular Estudiante", "Matricula", new { id = item.IdCurso }) *@
+        </td>
+    </tr>
+}
+
+</table>

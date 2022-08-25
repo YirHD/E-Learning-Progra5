@@ -1,0 +1,160 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+  <h1 class="display-4"><b>Mi  Campus | Plataforma E-LEARNING</b></h1>
+  <hr class="my-4">
+  <p>Esta plataforma brinda a los usuarios una herramienta de gestion de aprendizaje online.</p>
+  <p class="lead">
+    @*<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>*@
+
+@*    VEr como hacer que se vea la clase en el boton*@
+
+    @Html.ActionLink("Ver más", "Contact", null, new { @class = "btn btn-primary btn-lg" })
+  </p>
+</div>
+
+<div class="row mb-3">
+    <div class="col-md-6">
+        <dl>
+            <dt>I. Introducción</dt>
+            <dd>
+                En busca de la selección de un tema para el desarrollo de las habilidades adquiridas durante el curso de
+                curso de programación avanzada. Se eligió el desarrollo de una plataforma de aprendizaje online.
+                Esto se decidió por la necesidad de que el tema elegido funcionara para cubrir alguna necesidad social. Por otro lado
+                lado, este tema permite la aplicación precisa de los temas vistos a lo largo del curso. El sistema
+                sistema pretende ofrecer una herramienta de gestión del aula virtual, con una interfaz amigable, que permita
+                los usuarios se adapten fácilmente al software.
+            </dd>
+        </dl>
+    </div>
+    <div class="col-md-6">
+        <dl>
+            <dt>II. Justificación</dt>
+            <dd>
+                 A raíz de la llegada de la tecnología a nuestras vidas, una de las principales ventajas es la cercanía
+                que nos proporciona con la información. Internet es la herramienta perfecta para la transmisión de
+                información a nivel global, rompiendo la barrera de la comunicación. A partir de ese momento, muchas actividades
+                que antes eran presenciales vieron la posibilidad de realizarse de forma virtual.
+                Hoy tenemos la posibilidad de desarrollar sistemas que permiten centralizar la información, conectando
+                grupos de personas para compartirla. En el ámbito educativo, el término "E-learning" se ha generalizado
+                para referirse a las plataformas de aprendizaje en línea.
+                En base a lo anterior y buscando generar un sistema que pueda ser útil a la sociedad, se decidió
+                desarrollar una de estas plataformas, abierta al público, con código abierto.
+
+            </dd>
+        </dl>
+    </div>
+    <div class="col-md-12">
+        <dl>
+            <dt>III. Requerimientos</dt>
+            <dd>
+                Este sistema pretende poner a disposición de los usuarios la herramienta de un aula virtual. Esto implica un portal
+                donde los profesores pueden crear espacios para compartir información con sus alumnos.
+                De lo anterior se desprende el primer punto a tener en cuenta. La necesidad de tener diferentes vistas para
+                cada tipo de usuario. Es decir, cada usuario tendrá identificadores que le permitan acceder a ciertas
+                opciones y restringir otras.
+                Lo anterior se logrará con la implementación de medidas de seguridad y autenticación, de esta
+                manera cada persona que utilice la aplicación tendrá que identificarse. De esta manera, saltamos al
+                el siguiente punto, la autorización. Al tener la información de los usuarios que acceden al sistema, se
+                se hace posible la creación de roles y la asignación de los mismos.
+                Los roles serán los identificadores, se asignarán a los usuarios y posteriormente, con esto, se
+                se validará si el usuario en cuestión puede acceder a una parte del sistema o no.
+                Dentro del proyecto se necesitarán 3 roles como mínimo, Administrador - Profesor - Alumno.
+                El rol de administrador será el encargado de la administración del sistema en general. Este rol
+                tiene acceso a todas las vistas del sistema, también es posible gestionar todas las configuraciones
+                previas a la función de aula virtual, estas configuraciones se denominarán "Datos Maestros",
+                necesarios para el uso de la aplicación. Centrado en el proyecto, el administrador se encargará de
+                encargado de crear los usuarios del sistema, crear y asignar roles a estos usuarios.
+                El rol Alumno, será el encargado de consumir los recursos creados dinámicamente por los profesores,
+                tendrá acceso a la lista de asignaturas registradas para él, acceder al espacio del aula virtual de
+                cada asignatura, ver las lecciones y descargar los recursos asignados. De este modo, la funcionalidad de
+                el sistema a desarrollar para cada rol específico, generando un software de aula virtual funcional y dinámico con
+                software de aula virtual con roles, autenticación y una interfaz amigable. Permitiendo así
+                centralizar la información entre un grupo de alumnos y su profesor.
+
+            </dd>
+        </dl>
+    </div>
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">IV. Tecnologías Aplicadas </h5>
+                <div class="card-text">
+                    <div class="card-group">
+                        <div class="card">
+
+                            <div class="card-body">
+                                <h5 class="card-title">ASP.NET Core</h5>
+                                <p class="card-text">
+                                    Se inició a partir del uso de ASP.NET Core de Microsoft, [1] Ellos definen
+                                    ASP.netn core como una plataforma para desarrolladores formada por herramientas, lenguajes de programación y
+                                    bibliotecas para construir muchos tipos de aplicaciones diferentes. En este caso
+                                    será Web.
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="card">
+
+                            <div class="card-body">
+                                <h5 class="card-title">MVC</h5>
+                                <p class="card-text">
+                                    Para este proyecto, el desarrollo del modelo-vista-controlador MCV
+                                      se utilizó el modelo de la "red". Permite al desarrollador separar el usuario gráfico
+                                    la interfaz, la lógica utilizada dentro de la aplicación y la comunicación con la base de datos
+                                    modelo. Este patrón va más allá de ASP.net core y se utiliza en muchas tecnologías.
+
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="card">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Entity Framework</h5>
+                                <p class="card-text">
+                                    Otra herramienta utilizada en el proyecto es Entity Framework,
+                                    este es un ORM (object relational mapping) que permite relacionar las tablas
+                                    en la base de datos con los objetos utilizados en nuestro proyecto.
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="card">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Identity</h5>
+                                <p class="card-text">
+                                    Identity es un conjunto de bibliotecas de código para los procesos de autorización y
+                                    procesos de autenticación dentro de una aplicación común. La autenticación se refiere a
+                                    la forma en que los usuarios acceden a la aplicación, mientras que la autorización permite
+                                    configurar las áreas públicas y privadas del proyecto. 
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="card">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Razor</h5>
+                                <p class="card-text">
+                                          Razor es un motor de plantillas que permite incluir código
+                                    dentro de las vistas. De este modo, puedes enviar información desde el controlador a la
+                                    vista, y trabajar con esta información. Esto puede ser usado para realizar validaciones a nivel de vista
+                                    entre otras cosas.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
