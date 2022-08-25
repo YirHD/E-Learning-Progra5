@@ -1080,3 +1080,4 @@ C:\Users\Yirlany H\Downloads\E-Learning-Progra52\E-Learning-Progra52\project\obj
 C:\Users\Yirlany H\Downloads\E-Learning-Progra52\E-Learning-Progra52\project\obj\Debug\net6.0\project.pdb
 C:\Users\Yirlany H\Downloads\E-Learning-Progra52\E-Learning-Progra52\project\obj\Debug\net6.0\project.genruntimeconfig.cache
 C:\Users\Yirlany H\Downloads\E-Learning-Progra52\E-Learning-Progra52\project\obj\Debug\net6.0\ref\project.dll
+C:\Users\Yirlany H\Documents\E-Learning-Progra5\E-Learning-Progra5\project\bin\Debug\net6.0\libman.json

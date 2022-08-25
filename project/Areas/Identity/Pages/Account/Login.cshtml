@@ -10,7 +10,8 @@
     <div class="col-md-4">
         <section>
             <form id="account" method="post">
-                <h2><i class="fa-solid fa-user-graduate"></i> Inicia Sesión: </h2>
+                <br>
+                <h4><i class="fa-solid fa-user-graduate"></i> Inicie sesión </h4>
                 <hr />
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <div class="form-floating">
@@ -32,9 +33,10 @@
                     </div>
                 </div>
                 <div>
-                    <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-primary">Iniciar Sesión</button>
+                    <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-primary">Iniciar sesión</button>
                 </div>
                 <div>
+                    <br>
                     <p>
                         <a id="forgot-password" class="mt-4" asp-page="./ForgotPassword">Olvidaste la contraseña?</a>
                     </p>
@@ -50,7 +52,8 @@
     </div>
     <div class="col-md-6 col-md-offset-2">
         <section>
-            <h3>E-Learning Ingresar para aprender mas.</h3>
+            <br>
+            <h4>E-Learning ingresar para aprender mas.</h4>
             <hr />
             @{
                 if ((Model.ExternalLogins?.Count ?? 0) == 0)

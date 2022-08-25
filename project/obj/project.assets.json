@@ -9875,11 +9875,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yirlany H\\Downloads\\E-Learning-Progra52\\E-Learning-Progra52\\project\\project.csproj",
+      "projectUniqueName": "C:\\Users\\Yirlany H\\Documents\\E-Learning-Progra5\\E-Learning-Progra5\\project\\project.csproj",
       "projectName": "project",
-      "projectPath": "C:\\Users\\Yirlany H\\Downloads\\E-Learning-Progra52\\E-Learning-Progra52\\project\\project.csproj",
+      "projectPath": "C:\\Users\\Yirlany H\\Documents\\E-Learning-Progra5\\E-Learning-Progra5\\project\\project.csproj",
       "packagesPath": "C:\\Users\\Yirlany H\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yirlany H\\Downloads\\E-Learning-Progra52\\E-Learning-Progra52\\project\\obj\\",
+      "outputPath": "C:\\Users\\Yirlany H\\Documents\\E-Learning-Progra5\\E-Learning-Progra5\\project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Yirlany H\\AppData\\Roaming\\NuGet\\NuGet.Config",

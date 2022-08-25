@@ -7,10 +7,10 @@
 @if (User.IsInRole("Profe") || User.IsInRole("Admin"))
 {
     <div class="alert alert-success" role="alert">
-        <h4 class="alert-heading">Administración de Grupos</h4>
+        <h4 class="alert-heading">Administración de grupos</h4>
         <p>Bienvenido a la plataforma de aprendizaje en línea MyCampus</p>
         <hr>
-        <p class="mb-0">Aquí se encuentra la lista de cursos</p>
+        <p class="mb-0">Aquí se encuentra la lista de cursos.</p>
     </div>
 }
 else
@@ -19,7 +19,7 @@ else
         <h4 class="alert-heading">My Campus</h4>
         <p>Bienvenido a la plataforma de aprendizaje en línea MyCampus</p>
         <hr>
-        <p class="mb-0">Aquí se encuentra la lista de cursos matriculados para tí</p>
+        <p class="mb-0">Aquí se encuentra la lista de cursos matriculados:</p>
     </div>
 }
 
@@ -59,15 +59,15 @@ else
                             if (User.IsInRole("Profe"))
                             {
                                 <p>
-                                    Nombre Curso: @Html.TextBox("searchCurso", null, new { @class = "m-2" }) <br />
+                                    Nombre de curso: @Html.TextBox("searchCurso", null, new { @class = "m-2" }) <br />
                                     <input type="submit" value="Buscar" class="btn btn-success" />
                                 </p>
                             }
                             else
                             {
                                 <p>
-                                    Nombre Profesor: @Html.TextBox("searchProfe", null, new { @class = "m-2" }) <br />
-                                    Nombre Curso: @Html.TextBox("searchCurso", null, new { @class = "m-2" }) <br />
+                                    Nombre de profesor: @Html.TextBox("searchProfe", null, new { @class = "m-2" }) <br />
+                                    Nombre de curso: @Html.TextBox("searchCurso", null, new { @class = "m-2" }) <br />
                                     <input type="submit" value="Buscar" class="btn btn-success" />
                                 </p>
                             }

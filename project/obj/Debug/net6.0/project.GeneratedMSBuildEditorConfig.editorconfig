@@ -8,181 +8,181 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = project
 build_property.RootNamespace = project
-build_property.ProjectDir = C:\Users\Yirlany H\Downloads\E-Learning-Progra52\E-Learning-Progra52\project\
+build_property.ProjectDir = C:\Users\Yirlany H\Documents\E-Learning-Progra5\E-Learning-Progra5\project\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Yirlany H\Downloads\E-Learning-Progra52\E-Learning-Progra52\project
+build_property.MSBuildProjectDirectory = C:\Users\Yirlany H\Documents\E-Learning-Progra5\E-Learning-Progra5\project
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Areas/Identity/Pages/Account/Logout.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Views/Cursos/Create.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Views/Cursos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Views/Cursos/Delete.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Views/Cursos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Views/Cursos/Details.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Views/Cursos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Views/Cursos/Edit.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Views/Cursos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Views/Cursos/GeneraMatricula.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Views/Cursos/GeneraMatricula.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29zXEdlbmVyYU1hdHJpY3VsYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Views/Cursos/Grupo.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Views/Cursos/Grupo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29zXEdydXBvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Views/Cursos/Index.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Views/Cursos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Views/Cursos/Matricula.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Views/Cursos/Matricula.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29zXE1hdHJpY3VsYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Views/GruposAdmin/Create.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Views/GruposAdmin/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3J1cG9zQWRtaW5cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Views/GruposAdmin/Delete.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Views/GruposAdmin/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3J1cG9zQWRtaW5cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Views/GruposAdmin/Details.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Views/GruposAdmin/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3J1cG9zQWRtaW5cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Views/GruposAdmin/Edit.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Views/GruposAdmin/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3J1cG9zQWRtaW5cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Views/GruposAdmin/Index.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Views/GruposAdmin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3J1cG9zQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Views/Home/About.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Views/Home/Contact.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Views/Home/Index.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Views/Home/Privacy.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Views/Lecciones/Create.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Views/Lecciones/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjY2lvbmVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Views/Lecciones/Delete.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Views/Lecciones/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjY2lvbmVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Views/Lecciones/Details.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Views/Lecciones/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjY2lvbmVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Views/Lecciones/Edit.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Views/Lecciones/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjY2lvbmVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Views/RolesAdmin/Create.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Views/RolesAdmin/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNBZG1pblxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Views/RolesAdmin/Delete.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Views/RolesAdmin/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNBZG1pblxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Views/RolesAdmin/Details.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Views/RolesAdmin/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNBZG1pblxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Views/RolesAdmin/Index.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Views/RolesAdmin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNBZG1pblxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Views/Shared/Error.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Views/UsersAdmin/Create.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Views/UsersAdmin/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNBZG1pblxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Views/UsersAdmin/Delete.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Views/UsersAdmin/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNBZG1pblxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Views/UsersAdmin/Details.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Views/UsersAdmin/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNBZG1pblxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Views/UsersAdmin/Index.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Views/UsersAdmin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNBZG1pblxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Views/_ViewImports.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Views/_ViewStart.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yirlany H/Downloads/E-Learning-Progra52/E-Learning-Progra52/project/Views/Shared/_Layout.cshtml]
+[C:/Users/Yirlany H/Documents/E-Learning-Progra5/E-Learning-Progra5/project/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-t5518iznra

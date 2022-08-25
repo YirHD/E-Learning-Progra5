@@ -1,15 +1,21 @@
 ﻿@page
 @model RegisterModel
+
 @{
-    ViewData["Title"] = "Bienvenid@";
+
+    ViewData["Title"] = "";
 }
 
+<center>
 <h1>@ViewData["Title"]</h1>
+</center>
+
 
 <div class="row">
     <div class="col-md-4">
         <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
-            <h2>Registrarse.</h2>
+            <br>
+            <h4>Registrese:</h4>
             <hr />
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-floating">
@@ -52,14 +58,15 @@
     </div>
     <div class="col-md-6 col-md-offset-2">
         <section>
-            <h3>Bienvenido/a a nuestro campus.</h3>
+            <br>
+            <h4>Bienvenido/a a nuestro campus.</h4>
             <hr />
             @{
                 if ((Model.ExternalLogins?.Count ?? 0) == 0)
                 {
                     <div>
                         <p>
-                            Recuerda todos nuestros beneficios
+                            Recuerda todos nuestros beneficios.
                         </p>
                     </div>
                 }
