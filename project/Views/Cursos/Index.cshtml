@@ -5,28 +5,35 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+<br>
 <center>
-<h2>Listado de cursos </h2>
+<h2>Mantenimiento de cursos </h2>
 </center>
 
 
 <p>
+      <button class="btn btn-success ml-2" onclick="location.href='@Url.Action("Create","Cursos")';return false;">Añadir</button>
+  @*  @Html.ActionLink("Nuevo", "Create") *@
+</p>
+@*<p>
     @Html.ActionLink("Nuevo", "Create")
 </p>
+*@
+
 <table class="table" id="CursosTable">
     <thead class="thead-dark">
     <tr>
         <th>
-            Código del curso:
+            Código
         </th>
         <th>
-            Nombre del curso:
+            Nombre
         </th>
         <th>
-            Descripción del curso:
+            Descripción
         </th>
         <th>
-            Gestión de cursos:
+            
         </th>
     </tr>
     </thead>
@@ -43,11 +50,11 @@
             @Html.DisplayFor(modelItem => item.DescripcionCurso)
         </td>
         <td>
-            <button class="btn btn-primary ml-2" onclick="location.href='@Url.Action("Edit","Cursos",new{ id = item.IdCurso})';return false;">Editar</button>
-             <button class="btn btn-info ml-2" onclick="location.href='@Url.Action("Details","Cursos",new{ id = item.IdCurso})';return false;">Detalles</button>
-              <button class="btn btn-danger ml-2" onclick="location.href='@Url.Action("Delete","Cursos",new{ id = item.IdCurso})';return false;">Borrar</button>
-               <button class="btn btn-success ml-2" onclick="location.href='@Url.Action("Grupo","Cursos",new{ id = item.IdCurso})';return false;">Generar Grupo</button>
-                <button class="btn btn-dark ml-2" onclick="location.href='@Url.Action("Matricula","Cursos",new{ id = item.IdCurso})';return false;">Matricular Estudiante</button>
+            <button class="btn btn-info ml-2" onclick="location.href='@Url.Action("Edit","Cursos",new{ id = item.IdCurso})';return false;">Editar</button>
+             <button class="btn btn-primary ml-2" onclick="location.href='@Url.Action("Details","Cursos",new{ id = item.IdCurso})';return false;">Detalles</button>
+              <button class="btn btn-danger ml-2" onclick="location.href='@Url.Action("Delete","Cursos",new{ id = item.IdCurso})';return false;">Eliminar</button>
+               <button class="btn btn-warning ml-2" onclick="location.href='@Url.Action("Grupo","Cursos",new{ id = item.IdCurso})';return false;">Generar grupo</button>
+                <button class="btn btn-dark ml-2" onclick="location.href='@Url.Action("Matricula","Cursos",new{ id = item.IdCurso})';return false;">Matricular estudiantes</button>
 
            @* @Html.ActionLink("Editar", "Edit", new { id = item.IdCurso }) |
             @Html.ActionLink("Detalles", "Details", new { id = item.IdCurso }) |

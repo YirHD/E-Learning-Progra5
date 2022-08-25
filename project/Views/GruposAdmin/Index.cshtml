@@ -6,18 +6,22 @@
 
 @if (User.IsInRole("Profe") || User.IsInRole("Admin"))
 {
+    <br>
+    <center>
     <div class="alert alert-success" role="alert">
         <h4 class="alert-heading">Administración de grupos</h4>
         <p>Bienvenido a la plataforma de aprendizaje en línea MyCampus</p>
         <hr>
         <p class="mb-0">Aquí se encuentra la lista de cursos.</p>
     </div>
+    </center>
+    <br>
 }
 else
 {
     <div class="alert alert-success" role="alert">
         <h4 class="alert-heading">My Campus</h4>
-        <p>Bienvenido a la plataforma de aprendizaje en línea MyCampus</p>
+        <p>Bienvenido a la plataforma de aprendizaje en línea: Mi campus</p>
         <hr>
         <p class="mb-0">Aquí se encuentra la lista de cursos matriculados:</p>
     </div>
@@ -29,7 +33,7 @@ else
         @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
         {
             <p>
-                @Html.ActionLink("Crear Grupo", "Index", "Cursos", null, new { @class = "btn btn-success ml-3" })
+                @Html.ActionLink("Crear grupo", "Index", "Cursos", null, new { @class = "btn btn-success ml-3" })
             </p>
         }
 

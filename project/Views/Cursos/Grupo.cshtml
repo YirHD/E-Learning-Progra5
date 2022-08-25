@@ -10,18 +10,23 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+    <br>
+    <center>
     <div class="mt-3 mb-3">
         <h4>Generación de Grupo: @ViewBag.curso.NombreCurso </h4>
     </div>
+    </center>
+    <hr />
 
-
+<br>
 @using (Html.BeginForm())
 {
     <p>
         Nombre: @Html.TextBox("SearchString") &nbsp
-        <input type="submit" value="Buscar" class="btn btn-success" />
+        <input type="submit" value="Buscar" class="btn btn-secondary" />
     </p>
 }
+<br>
 
 <table class="table">
     <tr>
@@ -33,7 +38,7 @@
 
         <th>Cédula: </th>
 
-        <th>Opciones</th>
+        <th></th>
     </tr>
 
     @foreach (var profe in ViewBag.profes)
@@ -48,7 +53,7 @@
             <td> @profe.cedula </td>
 
             <td>
-                @Html.ActionLink("Generar grupo", "GeneraGrupo", new { idProfe = profe.Id, idCurso = ViewBag.curso.IdCurso }, new { @class = "btn btn-dark" })
+                @Html.ActionLink("Generar grupo", "GeneraGrupo", new { idProfe = profe.Id, idCurso = ViewBag.curso.IdCurso }, new { @class = "btn btn-success" })
             </td>
         </tr>
     }

@@ -8,11 +8,17 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+    <br>
+    <center>
     <div class="alert alert-primary" role="alert">
-        <h4 class="alert-heading">Selección de Grupo: </h4>
+        <h4 class="alert-heading">Selección de grupo </h4>
+        <br>
         <p>Matrícula de Estudiante: @ViewBag.alumno.nombre</p>
         <p>Curso por Matricular: @ViewBag.curso.NombreCurso</p>
     </div>
+    </center>
+    <hr />
+
 
     <table class="table">
         <tr>
@@ -35,7 +41,7 @@
                 <td> <p>@grupo.Curso.NombreCurso</p> </td>
 
                 <td>
-                    @Html.ActionLink("Realizar matrícula", "FinalizaMatricula", new { idGrupo = grupo.IdCursoProfe, idCurso = ViewBag.curso.IdCurso, idAlumno = ViewBag.alumno.Id  }, new { @class = "btn btn-dark" })
+                    @Html.ActionLink("Realizar matrícula", "FinalizaMatricula", new { idGrupo = grupo.IdCursoProfe, idCurso = ViewBag.curso.IdCurso, idAlumno = ViewBag.alumno.Id  }, new { @class = "btn btn-success" })
                 </td>
             </tr>
         }
