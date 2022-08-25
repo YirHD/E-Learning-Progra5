@@ -8,56 +8,66 @@
 @using (Html.BeginForm("Create", "UsersAdmin", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
 {
     @Html.AntiForgeryToken()
-    <h4>Nuevo Usuario:</h4>
+    <br>
+    <center>
+    <h2>Añadir usuario</h2>
+    </center>
     <hr />
     @Html.ValidationSummary("", new { @class = "text-error" })
     <div class="form-group">
         Nombre:
-        <div class="col-md-10">
+        <div class="col-md-7">
             @Html.TextBoxFor(m => m.nombre, new { @class = "form-control" })
         </div>
     </div>
+    <br>
     <div class="form-group">
         Apellidos:
-        <div class="col-md-10">
+        <div class="col-md-7">
             @Html.TextBoxFor(m => m.apellidos, new { @class = "form-control" })
         </div>
     </div>
+    <br>
     <div class="form-group">
         Cédula:
-        <div class="col-md-10">
+        <div class="col-md-7">
             @Html.EditorFor(m => m.cedula, new { @class = "form-control" })
         </div>
     </div>
+    <br>
     <div class="form-group">
-        Fecha de Nacimiento:
-        <div class="col-md-10">
+        Fecha de nacimiento:
+        <div class="col-md-7">
             @Html.EditorFor(m => m.fechaNacimiento, new { @class = "form-control" })
         </div>
     </div>
+    <br>
     <div class="form-group">
         Email:
-        <div class="col-md-10">
+        <div class="col-md-7">
             @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
         </div>
     </div>
+    <br>
     <div class="form-group">
         Contraseña:
-        <div class="col-md-10">
+        <div class="col-md-7">
             @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
         </div>
     </div>
+    <br>
     <div class="form-group">
         Confirme la contraseña:
-        <div class="col-md-10">
+        <div class="col-md-7">
             @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
         </div>
     </div>
+    <br>
     <div class="form-group">
         <label class="col-md-2 control-label">
             Seleccione los roles:
         </label>
-        <div class="col-md-10">
+        <div class="col-md-7">
             @foreach (var item in (SelectList)ViewBag.RoleId)
             {
                 <input type="checkbox" name="SelectedRoles" value="@item.Value" class="checkbox-inline" />
@@ -65,11 +75,14 @@
             }
         </div>
     </div>
+    <br>
+
     <div class="form-group">
         <div class="col-md-offset-2 col-md-10">
-            <input type="submit" class="btn btn-dark" value="Create" />
+            <input type="submit" class="btn btn-success" value="Guardar" />
         </div>
     </div>
+
 }
 @*
 @section Scripts {

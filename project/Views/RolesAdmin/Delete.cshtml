@@ -5,9 +5,10 @@
     ViewBag.Title = "Delete";
 }
 
-
-
-<h3>¿Realmente quiere borrar este rol?</h3>
+    <br>
+    <center>
+    <h2>¿Desea eliminar el rol?</h2>
+    </center>
 
 <div>
 
@@ -26,8 +27,10 @@ Nombre:
         @Html.AntiForgeryToken()
 
         <div class="form-actions no-color">
-            <input type="submit" value="Delete" class="btn btn-danger" /> |
-            @Html.ActionLink("Back to List", "Index", null,  new { @class="btn btn-dark"})
+            <input type="submit" value="Eliminar" class="btn btn-danger" /> 
+            <br>
+            <br>
+            @Html.ActionLink("Volver atrás", "Index", null,  new { @class="btn btn-dark"})
         </div>
     }
 </div>

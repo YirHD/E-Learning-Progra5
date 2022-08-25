@@ -2,10 +2,13 @@
 @model IdentityRole
 
 @{
-    ViewBag.Title = "Create";
+    ViewBag.Title = "";
 }
 
-<h2>Nuevo</h2>
+    <br>
+    <center>
+    <h2>Añadir rol</h2>
+    </center>
 
 
 @using (Html.BeginForm())
@@ -19,22 +22,25 @@
 
     <div class="form-group">
         Nombre:
-        <div class="col-md-10">
+        <div class="col-md-7">
             @Html.TextBoxFor(model => model.Name, new { @class = "form-control" })
             @Html.ValidationMessageFor(model => model.Name)
         </div>
     </div>
-
+    <br>
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Crear role" class="btn btn-dark mt-2" />
+                <input type="submit" value="Guardar" class="btn btn-success mt-2" />
             </div>
         </div>
+
     </div>
+
 }
 
+<br>
 <div>
-    @Html.ActionLink("Volver atras", "Index")
+    @Html.ActionLink("Volver atrás", "Index")
 </div>
 
 @*@section Scripts {

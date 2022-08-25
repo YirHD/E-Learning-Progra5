@@ -7,12 +7,12 @@
 
 <br>
 <center>
-<h2>Listado de usuarios </h2>
+<h2>Mantenimiento de usuarios </h2>
 </center>
 
 
 <p>
-      <button class="btn btn-success ml-2" onclick="location.href='@Url.Action("Create","UsersAdmin")';return false;">Agregar un nuevo usuario:</button>
+      <button class="btn btn-success ml-2" onclick="location.href='@Url.Action("Create","UsersAdmin")';return false;">Añadir</button>
   @*  @Html.ActionLink("Nuevo", "Create") *@
 </p>
 
@@ -46,8 +46,8 @@
 
             <td>
                @* @Html.ActionLink("Editar", "Edit", new { id = item.Id }) | *@
-               <button class="btn btn-primary ml-2" onclick="location.href='@Url.Action("Details","UsersAdmin",new{ id = item.Id})';return false;">Detalles del usuario</button>
-               <button class="btn btn-danger ml-2" onclick="location.href='@Url.Action("Delete","UsersAdmin",new{ id = item.Id})';return false;">Eliminar Usuario</button>
+               <button class="btn btn-primary ml-2" onclick="location.href='@Url.Action("Details","UsersAdmin",new{ id = item.Id})';return false;">Detalles</button>
+               <button class="btn btn-danger ml-2" onclick="location.href='@Url.Action("Delete","UsersAdmin",new{ id = item.Id})';return false;">Eliminar</button>
              @*   @Html.ActionLink("Detalles", "Details", new { id = item.Id }) |
                 @Html.ActionLink("Borrar", "Delete", new { id = item.Id }) *@
             </td>

@@ -5,8 +5,11 @@
     ViewBag.Title = "Delete";
 }
 
+    <br>
+    <center>
+    <h2>¿Desea eliminar el usuario?</h2>
+    </center>
 
-<h3>¿Realmente quiere borrar este usuario?</h3>
 <div>
     <hr />
     <dl class="dl-horizontal">
@@ -23,8 +26,10 @@
         @Html.AntiForgeryToken()
 
         <div class="form-actions no-color">
-            <input type="submit" value="Delete" class="btn btn-danger" /> |
-            @Html.ActionLink("Back to List", "Index", null, new { @class="btn btn-dark"})
+            <input type="submit" value="Eliminar" class="btn btn-danger" /> 
+            <br>
+            <br>
+            @Html.ActionLink("Volver atrás", "Index", null, new { @class="btn btn-dark"})
         </div>
     }
 </div>
