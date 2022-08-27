@@ -95,6 +95,7 @@ namespace project.Controllers
                     return View();
 
                 }
+                SendEmail(user.Email);
                 return RedirectToAction("Index");
             }
             ViewBag.RoleId = new SelectList(_roleManager.Roles, "Name", "Name");
